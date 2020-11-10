@@ -1,0 +1,74 @@
+body {
+    background-color: #37594a;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#titleName {
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    color: f2f2f2;
+    font-weight: bolder;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: rgb(199, 206, 194);
+  }
+    
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+#ariPark {
+    height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 600px;
+    float: right; 
+    margin: 50px 50px 50px 50px;
+    box-shadow: 0 9px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.wrapLeft {
+    /* float: right;  */
+    margin: 50px 35px 50px 50px;
+}
+
+#ariMenu {
+    font-size: 25px;
+    float: left;
+    font-weight: bolder;
+}
+
+#linkedInProfileRef {
+    color: white;
+    text-decoration: none;
+}
